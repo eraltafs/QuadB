@@ -1,0 +1,29 @@
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 5px;
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+form [type=submit] {
+    width: 40%;
+    margin: auto;
+   
+}
+h2{
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 3px;
+}
+table{
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}

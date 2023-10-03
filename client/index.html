@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Management</title>
+</head>
+<body>
+  <!-- Form to collect user details -->
+  <h2>Add User</h2>
+  <form id="userForm">
+    <input type="text" placeholder="User Name" id="userName" required>
+    <input type="email" placeholder="Email" id="userEmail" required>
+    <input type="password" placeholder="Password" id="userPassword" required>
+    <input type="text" placeholder="Image URL" id="userImage">
+    <button type="submit">Add User</button>
+  </form>
+
+  <!-- Table to display user information -->
+  <h2>All Users</h2>
+  <table id="userTable">
+    <thead>
+      <tr>
+        <th>User ID</th>
+        <th>User Name</th>
+        <th>Email</th>
+        <th>Image</th>
+        <th>Total Orders</th>
+        <th>Created At</th>
+        <th>Last Logged In</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!-- JavaScript to interact with the backend API -->
+  <script src="script.js"></script>
+</body>
+</html>
